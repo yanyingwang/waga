@@ -1,5 +1,4 @@
-__FILE__=$(readlink -f $0)
-APPHOME=$(dirname $__FILE__)
+#!/usr/bin/env zsh
 
 
 ### variables ###################################
@@ -14,7 +13,7 @@ export HISTTIMEFORMAT='%F %T  '
 
 
 ### load plugins ###################################
-for f in $(ls $APPHOME/wagaers/*.zsh)
+for f in $(ls ${0:a:h}/wagaers/*.zsh)
 do
   source $f
 done
@@ -23,5 +22,3 @@ done
 ### welcome aboard ###################################
 welcome_aboard
 
-unset __FILE__
-unset APPHOME
