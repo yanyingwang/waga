@@ -13,6 +13,7 @@ echo "source $HOME/waga/waga.zsh" >> $HOME/.zshrc
 ```shell
 cd $HOME/.oh-my-zsh/custom/plugins && \
 git clone https://github.com/yanyingwang/waga.git
+echo "plugins=(waga)" >> $HOME/.zshrc
 ```
 
 ## With ['antigen'](https://github.com/zsh-users/antigen)
