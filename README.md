@@ -3,6 +3,12 @@ waga
 
 # How To Install
 
+## Install zsh first
+```shell
+# for Ubuntu user
+sudo aptitude install zsh 
+```
+
 ## With ~/.zshrc
 ```shell
 git clone https://github.com/yanyingwang/waga.git $HOME
