@@ -9,18 +9,20 @@ waga
 sudo aptitude install zsh 
 ```
 
-## With ~/.zshrc
+## Then
+
+* With ~/.zshrc
 ```shell
 git clone https://github.com/yanyingwang/waga.git $HOME
 echo "source $HOME/waga/waga.zsh" >> $HOME/.zshrc
 ```
 
-## With [oh-my-zsh](http://ohmyz.sh)
+* With [oh-my-zsh](http://ohmyz.sh)
 ```shell
 cd $HOME/.oh-my-zsh/custom/plugins && \
 git clone https://github.com/yanyingwang/waga.git
 echo "plugins=(waga)" >> $HOME/.zshrc
 ```
 
-## With [antigen](http://antigen.sharats.me)
+* With [antigen](http://antigen.sharats.me)
 
