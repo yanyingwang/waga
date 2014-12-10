@@ -22,5 +22,5 @@ git clone https://github.com/yanyingwang/waga.git
 echo "plugins=(waga)" >> $HOME/.zshrc
 ```
 
-## With [antigen](https://github.com/zsh-users/antigen)
+## With [antigen](http://antigen.sharats.me)
 
