@@ -14,7 +14,7 @@ export HISTTIMEFORMAT='%F %T  '
 
 
 ### load plugins ###################################
-for f in $(ls $APPHOME/wagaer/*.zsh)
+for f in $(ls $APPHOME/wagaers/*.zsh)
 do
   source $f
 done
