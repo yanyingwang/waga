@@ -24,5 +24,6 @@ git clone https://github.com/yanyingwang/waga.git
 echo "plugins=(waga)" >> $HOME/.zshrc
 ```
 
-* With [antigen](http://antigen.sharats.me)
+* With [antibody](https://github.com/yanyingwang/antibody)
+Add `antibody yanyingwang/waga` to your 'zshrc' file.
 
