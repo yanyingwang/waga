@@ -20,6 +20,9 @@ alias netstat='sudo netstat'
 alias netstatainet='sudo netstat -anp --inet'
 alias lsof='sudo lsof'
 
+#cd ~
+alias H='cd $HOME'
+
 #sudo last command
 alias slcmd='sudo ${history[${#history}]}'
 
