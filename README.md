@@ -26,5 +26,5 @@ echo "plugins=(waga)" >> $HOME/.zshrc
 
 * With [antibody](https://github.com/yanyingwang/antibody)
 
-Add `antibody yanyingwang/waga` to your 'zshrc' file.
+Add `antibody github yanyingwang/waga` to your 'zshrc' file.
 
