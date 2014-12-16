@@ -23,6 +23,9 @@ alias lsof='sudo lsof'
 #cd ~
 alias H='cd $HOME'
 
+#proxychains
+alias p='proxychains'
+
 #sudo last command
 alias slcmd='sudo ${history[${#history}]}'
 
