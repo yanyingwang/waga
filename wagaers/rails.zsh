@@ -1,6 +1,7 @@
 alias rgc='rails generate controller'
 alias rgm='rails generate model'
 alias rs='rails server'
+alias rc='rails console'
 alias rsh='rails server -h'
 alias vroute='reroute'
 
