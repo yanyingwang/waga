@@ -55,9 +55,9 @@ alias aup='sudo aptitude update'
 alias aupgd='sudo apt-get upgrade'
 
 #debian dpkg
-alias dpl='sudo dpkg -l'
-alias dpi='sudo dpkg -i'
-alias dpr='sudo dpkg -r'
+alias dls='sudo dpkg -l'
+alias din='sudo dpkg -i'
+alias drm='sudo dpkg -r'
 
 ## colorized man pages with less Command
 #man()
