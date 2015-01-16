@@ -23,8 +23,8 @@ gal()
     #echo -e "\n\n==============\ngit pull\n=============="
     #git pull
 
-    echo -e "\n\n==============\ngit add --all \n=============="
-    git add --all
+    echo -e "\n\n==============\ngit add --all :/\n=============="
+    git add --all :/
 
     echo -e "\n\n==============\ngit commit -m \"$comment\"\n=============="
     git commit -m "$comment"
