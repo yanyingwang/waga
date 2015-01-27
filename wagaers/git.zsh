@@ -13,7 +13,9 @@ alias grst-sHEAD-3='git reset --soft HEAD~3'
 alias grst-hHEAD-1='git reset --hard HEAD~1'
 alias grst-hHEAD-2='git reset --hard HEAD~2'
 alias grst-hHEAD-3='git reset --hard HEAD~3'
-alias gdf-1='git diff HEAD^ HEAD'
+alias gdf1='git diff HEAD~1'
+alias gdf2='git diff HEAD~2'
+alias gdf3='git diff HEAD~3'
 
 gal()
 {
