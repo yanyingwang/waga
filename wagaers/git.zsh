@@ -1,6 +1,9 @@
 alias gpl='git pull'
+alias pgpl='proxychains git pull'
 alias gps='git push'
+alias pgps='proxychains git push'
 alias glon='git clone'
+alias pglon='proxychains git clone'
 alias gaa='git add --all'
 alias gcm='git commit -m'
 alias gacm='git add --all && git commit -m'
@@ -17,8 +20,7 @@ alias gdf1='git diff HEAD~1'
 alias gdf2='git diff HEAD~2'
 alias gdf3='git diff HEAD~3'
 
-gal()
-{
+gal() {
   comment=$1
 
   if [[ $# == 1 ]]
