@@ -1,4 +1,4 @@
 welcome_aboard()
 {
-  echo -e "\n \e[31m>> \e[32mWelcome \e[33maboard \e[34m& \e[35mHappy \e[36mhacking\e[35m, \e[95m$(whoami) \e[31m!!! \e[0m \n"
+  echo -e "\n \e[31m>> \e[32mHappy hacking \e[33m$(whoami) \e[34m- \e[35mTerminator \e[36m♥  \e[95myou \e[31m!!! \e[0m \n"
 }
