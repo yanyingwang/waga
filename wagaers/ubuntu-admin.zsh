@@ -22,7 +22,8 @@ alias lsof='sudo lsof'
 
 
 # Generate a Random Password
-alias gen-password='openssl rand -base64 32'
+alias gen-pswd-16='apg -a 1 -x 16 -m 16'
+alias gen-pswd='openssl rand -base64 32'
 
 #cd ~
 alias H='cd $HOME'
@@ -54,7 +55,7 @@ alias ain='sudo aptitude install'
 alias ainy='sudo aptitude -y install'
 alias arin='sudo aptitude reinstall'
 alias arm='sudo aptitude remove'
-alias apg='sudo aptitude purge'
+alias apr='sudo aptitude purge'
 alias aup='sudo aptitude update'
 alias aupgd='sudo apt-get upgrade'
 
