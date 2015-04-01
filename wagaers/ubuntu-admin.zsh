@@ -20,6 +20,10 @@ alias netstat='sudo netstat'
 alias netstatainet='sudo netstat -anp --inet'
 alias lsof='sudo lsof'
 
+
+# Generate a Random Password
+alias gen-password='openssl rand -base64 32'
+
 #cd ~
 alias H='cd $HOME'
 
