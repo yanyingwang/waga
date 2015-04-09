@@ -1,6 +1,6 @@
 alias rgc='rails generate controller'
-alias rgmo='rails generate model'
-alias rgmi='rails generate migration'
+alias rgmd='rails generate model'
+alias rgmg='rails generate migration'
 alias rs='rails server'
 alias rc='rails console'
 alias rsh='rails server -h'
