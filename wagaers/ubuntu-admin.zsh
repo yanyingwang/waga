@@ -63,6 +63,7 @@ alias aupgd='sudo apt-get upgrade'
 alias dls='sudo dpkg -l'
 alias din='sudo dpkg -i'
 alias drm='sudo dpkg -r'
+alias dpg='sudo dpkg --purge'
 
 ## colorized man pages with less Command
 #man()
