@@ -9,16 +9,24 @@ alias gcm='git commit -m'
 alias gacm='git add --all && git commit -m'
 alias gcma='git commit -a -m'
 alias grm='git rm'
-alias grst='git reset HEAD'
-alias grst-sHEAD-1='git reset --soft HEAD~1'
-alias grst-sHEAD-2='git reset --soft HEAD~2'
-alias grst-sHEAD-3='git reset --soft HEAD~3'
-alias grst-hHEAD-1='git reset --hard HEAD~1'
-alias grst-hHEAD-2='git reset --hard HEAD~2'
-alias grst-hHEAD-3='git reset --hard HEAD~3'
-alias gdf1='git diff HEAD~1'
-alias gdf2='git diff HEAD~2'
-alias gdf3='git diff HEAD~3'
+alias gdf='git diff'
+alias grst='git reset'
+alias grbs='git rebase'
+
+alias grst-HEAD='git reset HEAD'
+
+grst-s-HEAD~() {
+  git reset --soft HEAD~$1
+}
+
+grst-h-HEAD~() {
+  git reset --hard HEAD~$1
+}
+
+grb-i-HEAD~() {
+  git rebase -i HEAD~$1
+}
+
 
 gal() {
   comment=$1
