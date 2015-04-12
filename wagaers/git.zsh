@@ -11,7 +11,10 @@ alias gcma='git commit -a -m'
 alias grm='git rm'
 alias gdf='git diff'
 alias grst='git reset'
-alias grbs='git rebase'
+
+alias grb='git rebase'
+alias grb-a='git rebase --abort'
+alias grb-c='git rebase --continue'
 
 alias grst-HEAD='git reset HEAD'
 
