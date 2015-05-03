@@ -48,6 +48,7 @@ alias cp='cp -i'
 alias mv='mv -i'
 
 #debian aptitude
+alias aptt='sudo aptitude'
 alias asch='sudo aptitude search'
 alias ashw='sudo aptitude show'
 alias avsn='sudo aptitude versions'
