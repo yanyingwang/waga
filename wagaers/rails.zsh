@@ -1,5 +1,7 @@
 alias rgc='rails generate controller'
 alias rgmd='rails generate model'
+alias rrg='rake routes:grape'
+alias rdctr='rails destroy controller'
 alias rgmo='rails generate model'
 alias rgmg='rails generate migration'
 alias rgmi='rails generate migration'
