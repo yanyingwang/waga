@@ -56,7 +56,7 @@ alias ain='sudo aptitude install'
 alias ainy='sudo aptitude -y install'
 alias arin='sudo aptitude reinstall'
 alias arm='sudo aptitude remove'
-alias apr='sudo aptitude purge'
+alias apge='sudo aptitude purge'
 alias aup='sudo aptitude update'
 alias aupgd='sudo apt-get upgrade'
 
