@@ -79,3 +79,12 @@ alias dpg='sudo dpkg --purge'
     #LESS_TERMCAP_us=$(printf "\e[1;32m") \
     #man "$@"
 #}
+#
+#
+#
+
+
+# wmctrl switch cmd
+alias wmctrl2chrome="wmctrl -x -a 'google-chrome.google-chrome'"  # zsh -c 'wmctrl2chrome'
+alias wmctrl2terminator="wmctrl -x -a 'terminator.Terminator'"
+alias wmctrl2emacs="wmctrl -x -a 'emacs24_5.Emacs'"
