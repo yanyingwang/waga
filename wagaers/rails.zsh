@@ -10,6 +10,7 @@ alias rrs='rescue rails server'
 alias rc='rails console'
 alias rsh='rails server -h'
 alias vroute='reroute'
+alias rgaar = 'rg active_admin:resource'
 
 reroute () # rails edit config/routes.rb
 {
