@@ -1,4 +1,9 @@
+alias rga='rails generate active_admin:resource'
+alias rgar='rails generate active_admin:resource'
+alias rgap='rails generate active_admin:resource'
+
 alias rgc='rails generate controller'
+alias rgm='rails generate model'
 alias rgmd='rails generate model'
 alias rrg='rake routes:grape'
 alias rdctr='rails destroy controller'
