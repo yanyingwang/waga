@@ -42,10 +42,16 @@ alias lvremove='sudo lvremove'
 alias lvresize='sudo lvresize'
 
 # inactive rm cp mv
-alias ll='ls -l'
+alias l='k -ah'
+alias lo='ls -lah'
+
+alias ll='k' 
+alias llo='ls -l'
+
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
+
 
 #debian aptitude
 alias aptt='sudo aptitude'
