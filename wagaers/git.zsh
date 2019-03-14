@@ -18,6 +18,7 @@ alias grb-a='git rebase --abort'
 alias grb-c='git rebase --continue'
 
 alias grst-HEAD='git reset HEAD'
+alias gitignore='git rm --cached'
 
 grst-s-HEAD~() {
   git reset --soft HEAD~$1
@@ -73,3 +74,6 @@ gal() {
     echo "Usage: gal 'some comments'"
   fi
 }
+
+
+alias grm-cache='git rm --cached'
