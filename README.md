@@ -1,8 +1,7 @@
+<img src="https://raw.githubusercontent.com/yanyingwang/waga/master/favicon.png" alt="favicon" width="48"/>
+
 # A oh-my-zsh plugin built only for me - waga
 
-<img src="https://raw.githubusercontent.com/yanyingwang/waga/master/favicon.png" alt="favicon" width="64"/>
-
-# How To Install
 
 ## Install zsh first
 ```shell
