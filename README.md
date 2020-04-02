@@ -1,4 +1,6 @@
-waga
+<img src="https://raw.githubusercontent.com/yanyingwang/waga/master/favicon.png" alt="favicon" width="64"/>
+
+waga - A oh-my-zsh plugin only for me
 ========
 
 # How To Install
@@ -6,7 +8,7 @@ waga
 ## Install zsh first
 ```shell
 # for Ubuntu user
-sudo aptitude install zsh 
+sudo aptitude install zsh
 ```
 
 ## Then
