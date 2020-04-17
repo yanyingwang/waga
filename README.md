@@ -6,13 +6,14 @@ A oh-my-zsh plugin is built espectially for my own use.
 Check my zsh conf repo as well at: https://github.com/yanyingwang/.zsh
 
 
-## Install zsh first
+## Usage
+### Install zsh first
 ```shell
 # for Ubuntu user
 sudo aptitude install zsh
 ```
 
-## Then
+### Then
 
 * With ~/.zshrc
 ```shell
