@@ -20,6 +20,11 @@ alias grb-c='git rebase --continue'
 alias grst-HEAD='git reset HEAD'
 alias gitignore='git rm --cached'
 
+
+git-tag-del-region() {
+git tag --delete $1
+}
+
 grst-s-HEAD~() {
   git reset --soft HEAD~$1
 }
