@@ -82,3 +82,4 @@ gal() {
 
 
 alias grm-cache='git rm --cached'
+alias git-change-commited-author='git rebase --root --exec "git commit --amend --author=\"$1 <$2>\" --no-edit"'

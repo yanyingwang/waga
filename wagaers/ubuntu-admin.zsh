@@ -100,6 +100,7 @@ alias wmctrl2nautilus="wmctrl -x -a 'nautilus.Nautilus'"
 
 
 
-convert_jpg_pdf_current_dir() {
+ffmpeg-convert_jpg_pdf_current_dir() {
   for file in *.jpg ; do convert "$file" "${file/%jpg/pdf}"; done
 }
+alias ffmpeg-webm2gif='fmpeg -i $1 -pix_fmt rgb24 $1.gif'
